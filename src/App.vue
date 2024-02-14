@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+import DefaultLayout from '@/layouts/defaultLayout.vue';
+</script>
 
 <template>
-  <div class="text-lg font-bold">Hallo Folks!</div>
+  <DefaultLayout>
+    <router-view />
+  </DefaultLayout>
 </template>
 
 <style scoped></style>
