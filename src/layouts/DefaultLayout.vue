@@ -26,7 +26,6 @@
             <div class="flex-1 flex flex-col overflow-y-auto">
                 <!-- Page content -->
                 <div class="px-6 pt-20 pb-6">
-                    <!-- Slot for children page content -->
                     <slot></slot>
                 </div>
             </div>
